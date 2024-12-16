@@ -1,0 +1,577 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2024/11/ComputerOntology/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal>This is an ontology of Computer Course</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="#Antivirus"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Application_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Authentication"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CPU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Desktop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Encryption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Firewall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graphics_Design"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HardDrive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#JavaScript"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Laptop"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Linux"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Motherboard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Networking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OperatingSystem"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Operating_System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ProgrammingLanguage"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Protocol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RAM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Router"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Ruby"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Server"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Spreadsheet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Switch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Tablet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unix"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Utility_Software"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Web_Browser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Word_Processor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#macOS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#C++"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#IP_Address:"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasComponent"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSecurity"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSoftware"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#runsOn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usesProtocol"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasIPAddress"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasMemorySize"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasSecurityLevel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#hasVersion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AntivirusSoftware"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Application"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CPU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DellLaptop"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Excel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Firewall"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GoogleChrome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HDD1TB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HTTP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hardware"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Java"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LinuxMint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MacBookPro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MicrosoftWord"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Networking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#OperatingSystem"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ProgrammingLanguage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Python"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Python3.9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RAM8GB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Router"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Security"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Server01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Software"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TCPIP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ubuntu20.04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Windows10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#macOSBigSur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#C++"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Antivirus"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Application_Software"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Authentication"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CPU"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Desktop"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Encryption"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Firewall"/>
+        <Class IRI="#Security"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graphics_Design"/>
+        <Class IRI="#Application"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HardDrive"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Java"/>
+        <Class IRI="#ProgrammingLanguage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#JavaScript"/>
+        <Class IRI="#ProgrammingLanguage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Laptop"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Linux"/>
+        <Class IRI="#OperatingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Motherboard"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Operating_System"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Protocol"/>
+        <Class IRI="#Networking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Python"/>
+        <Class IRI="#ProgrammingLanguage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RAM"/>
+        <Class IRI="#Hardware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Router"/>
+        <Class IRI="#Networking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Ruby"/>
+        <Class IRI="#ProgrammingLanguage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Server"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Spreadsheet"/>
+        <Class IRI="#Application"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Switch"/>
+        <Class IRI="#Networking"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Tablet"/>
+        <Class IRI="#Computer"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unix"/>
+        <Class IRI="#OperatingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Utility_Software"/>
+        <Class IRI="#Software"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Web_Browser"/>
+        <Class IRI="#Application"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows"/>
+        <Class IRI="#OperatingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Word_Processor"/>
+        <Class IRI="#Application"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#macOS"/>
+        <Class IRI="#OperatingSystem"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#C++"/>
+        <Class IRI="#ProgrammingLanguage"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#IP_Address:"/>
+        <Class IRI="#Networking"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Security"/>
+        <NamedIndividual IRI="#AntivirusSoftware"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hardware"/>
+        <NamedIndividual IRI="#CPU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Computer"/>
+        <NamedIndividual IRI="#DellLaptop"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Application"/>
+        <NamedIndividual IRI="#Excel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Security"/>
+        <NamedIndividual IRI="#Firewall"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Application"/>
+        <NamedIndividual IRI="#GoogleChrome"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hardware"/>
+        <NamedIndividual IRI="#HDD1TB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Networking"/>
+        <NamedIndividual IRI="#HTTP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgrammingLanguage"/>
+        <NamedIndividual IRI="#Java"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OperatingSystem"/>
+        <NamedIndividual IRI="#LinuxMint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Computer"/>
+        <NamedIndividual IRI="#MacBookPro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Application"/>
+        <NamedIndividual IRI="#MicrosoftWord"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgrammingLanguage"/>
+        <NamedIndividual IRI="#Python"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Software"/>
+        <NamedIndividual IRI="#Python3.9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Hardware"/>
+        <NamedIndividual IRI="#RAM8GB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Networking"/>
+        <NamedIndividual IRI="#Router"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Computer"/>
+        <NamedIndividual IRI="#Server01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Networking"/>
+        <NamedIndividual IRI="#TCPIP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Software"/>
+        <NamedIndividual IRI="#Ubuntu20.04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Software"/>
+        <NamedIndividual IRI="#Windows10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OperatingSystem"/>
+        <NamedIndividual IRI="#macOSBigSur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#ProgrammingLanguage"/>
+        <NamedIndividual IRI="#C++"/>
+    </ClassAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSecurity"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSoftware"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#runsOn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usesProtocol"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#Computer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSecurity"/>
+        <Class IRI="#Computer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasSoftware"/>
+        <Class IRI="#Computer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#runsOn"/>
+        <Class IRI="#Application"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usesProtocol"/>
+        <Class IRI="#Networking"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasComponent"/>
+        <Class IRI="#Hardware"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSecurity"/>
+        <Class IRI="#Security"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasSoftware"/>
+        <Class IRI="#Software"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#runsOn"/>
+        <Class IRI="#OperatingSystem"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usesProtocol"/>
+        <Class IRI="#Protocol"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasIPAddress"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasSecurityLevel"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#hasVersion"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasIPAddress"/>
+        <Class IRI="#Networking"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasMemorySize"/>
+        <Class IRI="#Hardware"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasSecurityLevel"/>
+        <Class IRI="#Security"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#hasVersion"/>
+        <Class IRI="#Software"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasIPAddress"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasMemorySize"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasSecurityLevel"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#hasVersion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
